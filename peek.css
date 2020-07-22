@@ -1,0 +1,29 @@
+#doctor {
+    width: 150px;
+    height: 150px;
+    background-color: #222;
+    margin-right: auto;
+    margin-left: auto;
+}
+#element {
+    width: 150px;
+    height: 150px;
+    background-color: #f90;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+h2 {
+    text-align: center;
+}
+body {
+    background-color:  #5c2424;
+    }
+#box {
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color: #516851;
+    margin-left: auto;
+    margin-right: auto;
+}

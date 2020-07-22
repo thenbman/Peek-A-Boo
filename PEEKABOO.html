@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>peek a boo</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <script src="peek.js"></script>
+        <link href="peek.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <h2>
+            <strong>Peek a Boo</strong>
+        </h2>
+        <div id = "box">
+            <div onmouseout="everyone_onmouseout()" onmouseover="peek_onmouseover()" style="visibility: visible">
+                <p id="doctortext">click mouse over either image</p>
+                <p id="doctor"></p>
+            </div>
+            <div onmouseout="everyone_onmouseout()" onmouseover="aboo_onmouseover()" style="visibility: visible">
+                <p id="elementtext">i see you!</p>
+                <p id="element"></p>
+            </div>
+        </div>
+        
+    </body>
+</html>
